@@ -1,3 +1,7 @@
+" run -> sudo apt install build-essential cmake python3-dev
+" cd ~/.vim/bundle/YouCompleteMe
+" python3 install.py --clang-completer
+
 " general setup
 set backspace=2
 set number
