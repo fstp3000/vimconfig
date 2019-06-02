@@ -1,7 +1,3 @@
-" run -> sudo apt install build-essential cmake python3-dev
-" cd ~/.vim/bundle/YouCompleteMe
-" python3 install.py --clang-completer
-
 " general setup
 set backspace=2
 set number
@@ -19,6 +15,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Toggles NERD Tree view (file viewer)
+nnoremap <C-N> <ESC>:NERDTreeToggle<CR> 
 
 " Enable folding
 set foldmethod=indent
